@@ -1,0 +1,28 @@
+/* Importing Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Importing all components file */
+@import url("components/container.css");
+@import url("components/card.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url(components/footer.css);
+
+/* General style rules for fonts and colours */
+body {
+	margin: 0px;
+	font-family: Open Sans;
+}
+
+h1, h2, h3 {
+font-family: Poppins;
+color: #071330;
+}
+
+a {
+text-decoration: none;
+}
+
+.text-center {
+  text-align: center;
+}
